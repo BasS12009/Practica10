@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    tools:context=".SingIn">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¡Regístrate!"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/darker_gray"
+        android:layout_marginBottom="16dp"/>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/img1"
+        android:scaleType="centerCrop"
+        android:background="@drawable/rounder_background"
+        android:clipToOutline="true"
+        android:elevation="5dp"
+        android:layout_marginBottom="50dp"/>
+
+
+
+    <EditText
+        android:id="@+id/etrEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Correo electrónico"
+        android:inputType="textEmailAddress"
+        android:background="@android:color/transparent"
+        android:padding="12dp"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/etrPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:background="@android:color/transparent"
+        android:padding="12dp"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/etrConfirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirmar Contraseña"
+        android:inputType="textPassword"
+        android:background="@android:color/transparent"
+        android:padding="12dp"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/tvrError"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_red_dark"
+        android:visibility="gone"
+        android:textSize="14sp"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrar"
+        android:backgroundTint="@color/gray"
+        android:textColor="@android:color/white"
+        android:padding="12dp"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/btnGoLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿Ya tienes cuenta? Inicia Sesion"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center_horizontal"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="?attr/selectableItemBackground"
+        android:padding="8dp"/>
+
+
+</LinearLayout>

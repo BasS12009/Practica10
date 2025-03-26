@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "99017673460",
+    "project_id": "practicaaunteticacionbastidasd",
+    "storage_bucket": "practicaaunteticacionbastidasd.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:99017673460:android:11ae70700628e66ae0eca1",
+        "android_client_info": {
+          "package_name": "mx.edu.itson.potros.practicaaunteticacionbastidasd"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbtroXTJw4RIPR7nVg9ka9VM1jRa1awyw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
